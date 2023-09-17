@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+    border: 2px solid #189ec6;
+    border-radius: 10px;
+}
+
+.innerRectangle {
+    border: 2px solid #189ec6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 116px;
+
+
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Увеличен отступ между подписями и инпутами */
+}
+
+.labelText1 {
+    font-weight: bold;
+    color: #189ec6;
+    margin-right: 10px; /* Добавлен отступ между текстом и инпутом */
+}
+.labelText2 {
+    font-weight: bold;
+    color: #189ec6;
+    margin-right: 8px; /* Добавлен отступ между текстом и инпутом */
+}
+
+.TextField {
+    flex-grow: 1;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 10px;
+
+    /* Добавлен отступ справа для инпута */
+    width: 80px; /* Установите желаемую ширину инпута */
+}
+
+.buttonRectangle {
+    border: 2px solid #189ec6;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
